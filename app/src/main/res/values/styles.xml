@@ -1,0 +1,25 @@
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Leanback" />
+
+
+    <style name="TransparentDialog" parent="Theme.AppCompat">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <item name="android:colorBackground">@color/dialog_base</item>
+
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TransparentDialogAnim" parent="TransparentDialog">
+        <item name="android:windowAnimationStyle">@style/AnimationFromBottom.Window</item>
+    </style>
+
+    <style name="AnimationFromBottom.Window" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>

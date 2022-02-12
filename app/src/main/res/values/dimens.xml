@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_1">1dp</dimen>
+    <dimen name="margin_base_8">8dp</dimen>
+
+    <dimen name="dialog_leanback_padding">41dp</dimen>
+    <dimen name="dialog_leanback_height">230dp</dimen>
+    <dimen name="dialog_leanback_icon_size">86dp</dimen>
+    <dimen name="dialog_leanback_desc_top">18dp</dimen>
+    <dimen name="dialog_leanback_title_top">22dp</dimen>
+    <dimen name="dialog_leanback_title_horiz">13dp</dimen>
+    <dimen name="text_dialog_leanback_title">24dp</dimen>
+    <dimen name="text_dialog_leanback_desc">14dp</dimen>
+    <dimen name="dialog_leanback_button_w">303dp</dimen>
+    <dimen name="dialog_leanback_button_h">47dp</dimen>
+    <dimen name="dialog_leanback_button_top">18dp</dimen>
+    <dimen name="dialog_leanback_button_horiz">16dp</dimen>
+    <dimen name="text_dialog_leanback_button">14dp</dimen>
+</resources>
